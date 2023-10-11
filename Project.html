@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encryption/Decryption</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encryption/Decryption</h1>
+    <label for="text">Text:</label>
+    <input type="text" id="text" placeholder="Enter text">
+    <label for="key">Key:</label>
+    <input type="text" id="key" placeholder="Enter key">
+    <label for="algorithm">Select an algorithm:</label>
+    <select id="algorithm">
+      <option value="caesar">Caesar Cipher</option>
+      <option value="substitution">Substitution Cipher</option>
+    </select>
+    <button onclick="applyEncryption()">Encrypt</button>
+    <button onclick="applyDecryption()">Decrypt</button>
+    <div class="result-container">
+      <label for="result">Result:</label>
+      <textarea id="result" rows="3" readonly></textarea>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!--RAHUL-Nj-->
